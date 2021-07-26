@@ -1,0 +1,84 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;   
+}
+
+nav {
+    height: 40px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.about-store {
+    float: left;
+    padding: 5px;
+}
+
+.toprightnav {
+    padding: 5px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: end;
+}
+
+a {
+   padding: 6px;
+   text-decoration: none; 
+   color: black;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+svg {
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    padding: 5px 0px 0px 5px;
+}
+
+#karl-pic {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#google-logo {
+    display : flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.input {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    max-width: 550px;
+    width: 500px;
+    border-radius: 25px;
+    height: 25px;
+}
+
+.button-div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

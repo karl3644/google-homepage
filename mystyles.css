@@ -1,6 +1,22 @@
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100%;
     font-family: arial, sans-serif;
-    font-size: 14px;   
+    font-size: 14px; 
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -8,6 +24,8 @@ nav {
     padding: 6px;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
+    
 }
 
 .about-store {
@@ -53,10 +71,11 @@ svg {
     align-items: center;
     margin: 0 auto;
     padding: 100px;
+    flex-shrink: 0;
+  
 }
 
 .input {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -69,16 +88,29 @@ input {
 }
 
 .button-div {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     justify-content: center;
-    padding: 15px 0px
+    padding: 15px 0px;
+    flex-shrink: 0;
+   
+}
+
+.whitespace {
+    flex-grow: 1;
+    padding: 15px 0px;
+    flex-shrink: 0;
+    
 }
 
 footer {
-    position: absolute;
+    height: 50px;
     bottom: 0px;
-    width: 100%;
+    background-color: rgb(233, 233, 233);
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    flex-shrink: 0;
+    
 }
